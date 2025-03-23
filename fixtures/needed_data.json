@@ -1,0 +1,624 @@
+[
+	{
+		"model": "dcim.site",
+		"pk": 1,
+		"fields": {
+			"created": "2025-03-22T17:54:38.741Z",
+			"last_updated": "2025-03-23T13:27:26.260Z",
+			"custom_field_data": {},
+			"description": "",
+			"comments": "",
+			"name": "site_1",
+			"slug": "casa",
+			"status": "active",
+			"region": null,
+			"group": null,
+			"tenant": null,
+			"facility": "",
+			"time_zone": null,
+			"physical_address": "",
+			"shipping_address": "",
+			"latitude": null,
+			"longitude": null,
+			"asns": []
+		}
+		},
+		{
+		"model": "dcim.site",
+		"pk": 2,
+		"fields": {
+			"created": "2025-03-23T13:27:42.393Z",
+			"last_updated": "2025-03-23T13:27:42.393Z",
+			"custom_field_data": {},
+			"description": "",
+			"comments": "",
+			"name": "site_2",
+			"slug": "site_2",
+			"status": "active",
+			"region": null,
+			"group": null,
+			"tenant": null,
+			"facility": "",
+			"time_zone": null,
+			"physical_address": "",
+			"shipping_address": "",
+			"latitude": null,
+			"longitude": null,
+			"asns": []
+		}
+		},
+		{
+			"model": "dcim.rack",
+			"pk": 1,
+			"fields": {
+			  "created": "2025-03-22T18:34:08.669Z",
+			  "last_updated": "2025-03-23T13:29:30.032Z",
+			  "custom_field_data": {},
+			  "description": "",
+			  "comments": "",
+			  "weight": null,
+			  "weight_unit": null,
+			  "_abs_weight": null,
+			  "width": 19,
+			  "u_height": 42,
+			  "starting_unit": 1,
+			  "desc_units": false,
+			  "outer_width": null,
+			  "outer_depth": null,
+			  "outer_unit": null,
+			  "mounting_depth": null,
+			  "max_weight": null,
+			  "_abs_max_weight": null,
+			  "form_factor": null,
+			  "rack_type": null,
+			  "name": "rack_1",
+			  "facility_id": null,
+			  "site": 1,
+			  "location": null,
+			  "tenant": null,
+			  "status": "active",
+			  "role": null,
+			  "serial": "",
+			  "asset_tag": null,
+			  "airflow": null
+			}
+		  },
+		  {
+			"model": "dcim.rack",
+			"pk": 2,
+			"fields": {
+			  "created": "2025-03-23T13:29:10.885Z",
+			  "last_updated": "2025-03-23T13:29:10.885Z",
+			  "custom_field_data": {},
+			  "description": "",
+			  "comments": "",
+			  "weight": null,
+			  "weight_unit": null,
+			  "_abs_weight": null,
+			  "width": 19,
+			  "u_height": 42,
+			  "starting_unit": 1,
+			  "desc_units": false,
+			  "outer_width": null,
+			  "outer_depth": null,
+			  "outer_unit": null,
+			  "mounting_depth": null,
+			  "max_weight": null,
+			  "_abs_max_weight": null,
+			  "form_factor": null,
+			  "rack_type": null,
+			  "name": "rack_2",
+			  "facility_id": null,
+			  "site": 1,
+			  "location": null,
+			  "tenant": null,
+			  "status": "active",
+			  "role": null,
+			  "serial": "4324",
+			  "asset_tag": null,
+			  "airflow": "front-to-rear"
+			}
+		  },
+		  {
+			"model": "dcim.rack",
+			"pk": 3,
+			"fields": {
+			  "created": "2025-03-23T13:29:57.272Z",
+			  "last_updated": "2025-03-23T13:29:57.272Z",
+			  "custom_field_data": {},
+			  "description": "",
+			  "comments": "",
+			  "weight": null,
+			  "weight_unit": null,
+			  "_abs_weight": null,
+			  "width": 19,
+			  "u_height": 42,
+			  "starting_unit": 1,
+			  "desc_units": false,
+			  "outer_width": null,
+			  "outer_depth": null,
+			  "outer_unit": null,
+			  "mounting_depth": null,
+			  "max_weight": null,
+			  "_abs_max_weight": null,
+			  "form_factor": null,
+			  "rack_type": null,
+			  "name": "rack_3",
+			  "facility_id": null,
+			  "site": 2,
+			  "location": null,
+			  "tenant": null,
+			  "status": "active",
+			  "role": null,
+			  "serial": "543234",
+			  "asset_tag": null,
+			  "airflow": null
+			}
+		  },
+		  {
+			"model": "dcim.rack",
+			"pk": 4,
+			"fields": {
+			  "created": "2025-03-23T13:30:15.302Z",
+			  "last_updated": "2025-03-23T13:30:15.302Z",
+			  "custom_field_data": {},
+			  "description": "",
+			  "comments": "",
+			  "weight": null,
+			  "weight_unit": null,
+			  "_abs_weight": null,
+			  "width": 19,
+			  "u_height": 42,
+			  "starting_unit": 1,
+			  "desc_units": false,
+			  "outer_width": null,
+			  "outer_depth": null,
+			  "outer_unit": null,
+			  "mounting_depth": null,
+			  "max_weight": null,
+			  "_abs_max_weight": null,
+			  "form_factor": null,
+			  "rack_type": null,
+			  "name": "rack_4",
+			  "facility_id": null,
+			  "site": 2,
+			  "location": null,
+			  "tenant": null,
+			  "status": "active",
+			  "role": null,
+			  "serial": "5432",
+			  "asset_tag": null,
+			  "airflow": null
+			}
+		  },
+		  {
+			"model": "dcim.manufacturer",
+			"pk": 1,
+			"fields": {
+			  "created": "2025-03-22T18:37:23.132Z",
+			  "last_updated": "2025-03-22T18:37:23.132Z",
+			  "custom_field_data": {},
+			  "name": "cisco",
+			  "slug": "cisco",
+			  "description": ""
+			}
+		  },
+		  {
+			"model": "dcim.devicerole",
+			"pk": 1,
+			"fields": {
+			  "created": "2025-03-22T18:35:58.154Z",
+			  "last_updated": "2025-03-22T18:35:58.154Z",
+			  "custom_field_data": {},
+			  "name": "Network Switch",
+			  "slug": "Network Switch",
+			  "description": "",
+			  "color": "9e9e9e",
+			  "vm_role": true,
+			  "config_template": null
+			}
+		  },
+		  {
+			"model": "dcim.devicerole",
+			"pk": 2,
+			"fields": {
+			  "created": "2025-03-23T13:33:21.040Z",
+			  "last_updated": "2025-03-23T13:33:21.040Z",
+			  "custom_field_data": {},
+			  "name": "server",
+			  "slug": "server",
+			  "description": "",
+			  "color": "ff5722",
+			  "vm_role": true,
+			  "config_template": null
+			}
+		  },
+		  {
+			"model": "dcim.devicerole",
+			"pk": 3,
+			"fields": {
+			  "created": "2025-03-23T13:33:30.273Z",
+			  "last_updated": "2025-03-23T13:33:30.273Z",
+			  "custom_field_data": {},
+			  "name": "Router",
+			  "slug": "router",
+			  "description": "",
+			  "color": "ffc107",
+			  "vm_role": true,
+			  "config_template": null
+			}
+		  },
+		  {
+			"model": "dcim.devicerole",
+			"pk": 4,
+			"fields": {
+			  "created": "2025-03-23T13:33:55.559Z",
+			  "last_updated": "2025-03-23T13:33:55.559Z",
+			  "custom_field_data": {},
+			  "name": "Power Distribution Unit",
+			  "slug": "power-distribution-unit",
+			  "description": "",
+			  "color": "ffffff",
+			  "vm_role": true,
+			  "config_template": null
+			}
+		  },
+		  {
+			"model": "dcim.devicetype",
+			"pk": 1,
+			"fields": {
+			  "created": "2025-03-22T18:38:05.271Z",
+			  "last_updated": "2025-03-22T18:38:05.271Z",
+			  "custom_field_data": {},
+			  "description": "",
+			  "comments": "",
+			  "weight": null,
+			  "weight_unit": null,
+			  "_abs_weight": null,
+			  "manufacturer": 1,
+			  "model": "rweq34",
+			  "slug": "rweq34",
+			  "default_platform": null,
+			  "part_number": "",
+			  "u_height": "1.0",
+			  "exclude_from_utilization": false,
+			  "is_full_depth": true,
+			  "subdevice_role": null,
+			  "airflow": null,
+			  "front_image": "",
+			  "rear_image": "",
+			  "console_port_template_count": 0,
+			  "console_server_port_template_count": 0,
+			  "power_port_template_count": 0,
+			  "power_outlet_template_count": 0,
+			  "interface_template_count": 0,
+			  "front_port_template_count": 0,
+			  "rear_port_template_count": 0,
+			  "device_bay_template_count": 0,
+			  "module_bay_template_count": 0,
+			  "inventory_item_template_count": 0
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 1,
+			"fields": {
+			  "name": "device_1",
+			  "device_type": 1,
+			  "role": 1,
+			  "rack": 1,
+			  "position": 1,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 2,
+			"fields": {
+			  "name": "device_2",
+			  "device_type": 1,
+			  "role": 2,
+			  "rack": 1,
+			  "position": 2,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 3,
+			"fields": {
+			  "name": "device_3",
+			  "device_type": 1,
+			  "role": 3,
+			  "rack": 1,
+			  "position": 3,
+			  "face": "front",
+			  "status": "planned",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 4,
+			"fields": {
+			  "name": "device_4",
+			  "device_type": 1,
+			  "role": 4,
+			  "rack": 1,
+			  "position": 4,
+			  "face": "front",
+			  "status": "staged",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 5,
+			"fields": {
+			  "name": "device_5",
+			  "device_type": 1,
+			  "role": 1,
+			  "rack": 1,
+			  "position": 5,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 6,
+			"fields": {
+			  "name": "device_6",
+			  "device_type": 1,
+			  "role": 2,
+			  "rack": 1,
+			  "position": 6,
+			  "face": "front",
+			  "status": "offline",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 7,
+			"fields": {
+			  "name": "device_7",
+			  "device_type": 1,
+			  "role": 3,
+			  "rack": 1,
+			  "position": 7,
+			  "face": "front",
+			  "status": "failed",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 8,
+			"fields": {
+			  "name": "device_8",
+			  "device_type": 1,
+			  "role": 4,
+			  "rack": 1,
+			  "position": 8,
+			  "face": "front",
+			  "status": "inventory",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 9,
+			"fields": {
+			  "name": "device_9",
+			  "device_type": 1,
+			  "role": 1,
+			  "rack": 1,
+			  "position": 9,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 10,
+			"fields": {
+			  "name": "device_10",
+			  "device_type": 1,
+			  "role": 2,
+			  "rack": 1,
+			  "position": 10,
+			  "face": "front",
+			  "status": "decommissioning",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 11,
+			"fields": {
+			  "name": "device_11",
+			  "device_type": 1,
+			  "role": 3,
+			  "rack": 3,
+			  "position": 11,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 12,
+			"fields": {
+			  "name": "device_12",
+			  "device_type": 1,
+			  "role": 4,
+			  "rack": 3,
+			  "position": 12,
+			  "face": "front",
+			  "status": "planned",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 13,
+			"fields": {
+			  "name": "device_13",
+			  "device_type": 1,
+			  "role": 1,
+			  "rack": 3,
+			  "position": 13,
+			  "face": "front",
+			  "status": "staged",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 14,
+			"fields": {
+			  "name": "device_14",
+			  "device_type": 1,
+			  "role": 2,
+			  "rack": 3,
+			  "position": 14,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 15,
+			"fields": {
+			  "name": "device_15",
+			  "device_type": 1,
+			  "role": 3,
+			  "rack": 3,
+			  "position": 15,
+			  "face": "front",
+			  "status": "offline",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 16,
+			"fields": {
+			  "name": "device_16",
+			  "device_type": 1,
+			  "role": 4,
+			  "rack": 3,
+			  "position": 16,
+			  "face": "front",
+			  "status": "failed",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 17,
+			"fields": {
+			  "name": "device_17",
+			  "device_type": 1,
+			  "role": 1,
+			  "rack": 3,
+			  "position": 17,
+			  "face": "front",
+			  "status": "inventory",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 18,
+			"fields": {
+			  "name": "device_18",
+			  "device_type": 1,
+			  "role": 2,
+			  "rack": 3,
+			  "position": 18,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 19,
+			"fields": {
+			  "name": "device_19",
+			  "device_type": 1,
+			  "role": 3,
+			  "rack": 3,
+			  "position": 19,
+			  "face": "front",
+			  "status": "decommissioning",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "dcim.device",
+			"pk": 20,
+			"fields": {
+			  "name": "device_20",
+			  "device_type": 1,
+			  "role": 4,
+			  "rack": 3,
+			  "position": 20,
+			  "face": "front",
+			  "status": "active",
+			  "site": 1
+			}
+		  },
+		  {
+			"model": "users.user",
+			"pk": 1,
+			"fields": {
+			  "password": "pbkdf2_sha256$870000$8HE6lJRq8XmEPwcql1el0Z$p8Psm7xCETPci4O5nAkqtvEokM3gtDUIKKncQKDkUS0=",
+			  "last_login": null,
+			  "is_superuser": true,
+			  "username": "test-user@gmail.com",
+			  "first_name": "",
+			  "last_name": "",
+			  "email": "test-user@gmail.com",
+			  "is_staff": true,
+			  "is_active": true,
+			  "date_joined": "2025-03-23T19:09:52.533Z",
+			  "user_permissions": [],
+			  "groups": [],
+			  "object_permissions": []
+			}
+		  },
+		  {
+			"model": "users.userconfig",
+			"pk": 1,
+			"fields": {
+			  "user": 1,
+			  "data": {}
+			}
+		  },
+		  {
+			"model": "users.token",
+			"pk": 1,
+			"fields": {
+			  "user": 1,
+			  "created": "2025-03-23T15:26:43.264Z",
+			  "expires": null,
+			  "last_used": "2025-03-23T16:45:45.395Z",
+			  "key": "afa4e673511cdf7e9f85e4d7080848eb7dad3232",
+			  "write_enabled": true,
+			  "description": "",
+			  "allowed_ips": []
+			}
+		  }
+
+]
