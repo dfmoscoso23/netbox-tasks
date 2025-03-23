@@ -37,15 +37,15 @@ A separate Python container *script-container* has been added to docker-compose.
 
 **Inside container:**
 
-```python Scripts/api_script.py```
+```python api_script.py```
 
 Can filter status with *--status*
 
-```python Scripts/api_script.py --status active```
+```python api_script.py --status active```
 
 **Outside the container:**
-```docker compose exec -it script-container python Scripts/api_script.py```
-or ```docker compose exec -it script-container python Scripts/api_script.py --status active```
+```docker compose exec -it script-container python api_script.py```
+or ```docker compose exec -it script-container python api_script.py --status active```
 
 Also i added a sh to run and tested more easily with ```sh execute-api-script.sh```
 
@@ -56,7 +56,7 @@ In all cases, the script prints the count of devices for all statuses or only fo
 The script includes mocked API tests using pytest.
 
 This script has a test mocking the api can be runned whith the sh or with
-```docker compose exec -it script-container pytest Scripts/test_api_script.py```
+```docker compose exec -it script-container pytest test_api_script.py```
 
 ## FILES
 All the scripts are in the Scripts folder.

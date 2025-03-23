@@ -91,12 +91,13 @@ services:
     container_name: script-container
     working_dir: /app
     volumes:
-      - .Scripts:/app
+      - ./Scripts:/app
     environment:
       - PYTHONUNBUFFERED=1
     stdin_open: true
     tty: true
-    command: "pip install -r requirements.txt && sleep infinity"
+    command: sh -c "pip install -r requirements.txt && sleep infinity"
+
 volumes:
   netbox-media-files:
     driver: local
