@@ -27,11 +27,15 @@ To add it, go to Scripts and click + Add.
 The script is located in:
 
 Scripts/basic_filter.py
-
+ 
+ >To acces I used the user *test-user@gmail.com* (It is added in the fixture)
+ >Password: testestes
+ >Naturally, you can create a superuser using createsuper, as always.
 
 ## TASK 2: Api Script
 
 A separate Python container *script-container* has been added to docker-compose.yml to run the API script independently of the NetBox runtime (it still uses the internal container network).
+It uses a token from the user added in the fixture, which is stored in the env folder under script.env. The container reads this token from the environment file. 
 
 ### Running the API Script
 
