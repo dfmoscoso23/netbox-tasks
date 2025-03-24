@@ -3,6 +3,7 @@ from dcim.models.racks import Rack
 from dcim.choices import DeviceStatusChoices
 from dcim.models.sites import Site
 from dcim.models.devices import Device
+from utilities.exceptions import AbortScript
 from django.db.models import Q
 import yaml
 
@@ -24,17 +25,23 @@ class DeviceQuery(Script):
         Executes the query based on the provided filters.
         Logs the number of devices found and outputs the results in YAML format.
         """
+        site = data.get("site")
+        rack = data.get("rack")
+        
+        #At least one filter more has to be selected
+        if not site or rack:
+            raise AbortScript("At least one filter more (site or rack) has to be selected")
 
         # The status filter is mandatory
         queries = [Q(status=data.get("status"))]
 
         # Apply the site filter if provided
-        if data.get("site"):
-            queries.append(Q(rack__site__name=data.get("site")))
+        if site:
+            queries.append(Q(rack__site__name=site))
 
         # Apply the rack filter if provided
-        if data.get("rack"):
-            queries.append(Q(rack__name=data.get("rack")))
+        if rack:
+            queries.append(Q(rack__name=rack))
 
         devices = Device.objects.filter(*queries)
 
