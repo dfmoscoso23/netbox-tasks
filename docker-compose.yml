@@ -90,6 +90,7 @@ services:
     image: python:3.12
     container_name: script-container
     working_dir: /app
+    env_file: env/script.env
     volumes:
       - ./Scripts:/app
     environment:

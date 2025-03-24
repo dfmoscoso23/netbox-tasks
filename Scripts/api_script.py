@@ -1,9 +1,10 @@
 import argparse
 from collections import defaultdict
+import os
 import requests
 
-URL = "http://netbox:8080/api/dcim/devices/"
-TOKEN = "afa4e673511cdf7e9f85e4d7080848eb7dad3232"
+URL = os.getenv("NETBOX_URL")
+TOKEN = os.getenv("TOKEN_NETBOX")
 
 
 def make_query(status):
